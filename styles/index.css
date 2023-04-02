@@ -207,10 +207,6 @@
     }
 
     .howItWorks-title {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
         width: 351px;
         height: 84px;
     }
@@ -223,6 +219,8 @@
         font-weight: 400;
         font-size: 12px;
         line-height: 16px;
+        margin: 0;
+        padding: 0;
     }
 
     .howItWorks-title-question {
@@ -231,8 +229,11 @@
         font-family: 'Kanit';
         font-style: normal;
         font-weight: 700;
-        font-size: 54px;
-        line-height: 56px;
+        font-size: 52px;
+        line-height: 54px;
+        margin: 0;
+        padding: 0;
+
     }
 
     .howItWorks-image {
@@ -257,12 +258,6 @@
         justify-content: space-between;               
         height: 186px;
     }
-
-    .howItWorks-title {
-        background-image: url("./images/HowItWorks.svg");
-        background-position: center;
-    }
-
 
     .howItWorks-item-title {
         width: 400px;
