@@ -1,0 +1,169 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+  
+@media (min-width: 768px){
+    
+    body {
+        margin: 0;
+    }
+
+    .page {
+        display: block;
+        /* width: 1440px;
+        height: 2386px; */
+    }
+
+    .page-header {
+        display: flex;       
+        justify-content: space-between;
+        align-items: center;
+        margin: 12px 87.32px 12px 80px;
+    }
+
+    .page-header-left-links {
+        display: flex;               
+        align-items: center;
+        margin: 8px 0 8px 0;
+    }
+    
+    .magnifier-link {
+        display: block;
+        width: 18.68px;
+        height: 22px;
+        margin: 8px 10px 8px 0px;
+        background-image: url("/images/icons/magnifier.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .jumys-tap-link {
+        display: block;  
+        box-sizing: border-box;      
+        width: 86px;
+        height: 22px;                
+        margin: 0;
+        background-image: url("/images/icons/JumysTapLogo.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    } 
+
+    .navigation-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: 410px;
+        height: 38px;
+
+    }
+
+    .navigation-item {
+        display: block;
+        padding: 0;
+    }
+    .navigation-item:not(:last-child) {
+        margin-right: 16px;      
+    }
+
+    .navigation-item:last-child {
+        margin-right: 0;
+    }
+
+    .navigation-link {
+        padding: 10px 12px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #081E34;
+    }
+
+    .navigation-button {
+        background: rgba(8, 30, 52, 0.12);
+        border-radius: 100px;
+    }
+
+    .description {
+        padding: 100px 80px;
+    }
+
+    .hero-block {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 495px;
+        height: 366px;
+    }
+
+    .hero {
+        display: block;
+        height: 458px;        
+    }
+
+    .invitation {        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        flex-grow: 0;
+
+        margin: 0;
+        padding: 0;
+
+        width: 495px;
+        height: 192px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 64px;  
+        color: #000000;      
+    }
+
+    .invitation-description {
+        width: 495px;
+        height: 44px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;            
+    }
+
+    .howItWorks-link {        
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        width: 144px;
+        height: 50px;     
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;    
+                
+        color: #FFFFFF;        
+        background: #712FFF;
+        border-radius: 100px;
+    }
+  }
