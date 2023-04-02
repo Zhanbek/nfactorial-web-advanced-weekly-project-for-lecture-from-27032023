@@ -15,15 +15,15 @@
         margin: 0;
     }
 
-    .main-index {
-        margin: 0;        
-    }
-
     .page {
         display: block;
         /* width: 1440px;
         height: 2386px; */
     }
+
+    /* 
+    header  
+    */
 
     .page-header {
         display: flex;       
@@ -97,6 +97,14 @@
     .navigation-button {
         background: rgba(8, 30, 52, 0.12);
         border-radius: 100px;
+    }
+
+    /* 
+    main  
+    */
+    
+    .main-index {
+        margin: 0;        
     }
 
     .description {
@@ -234,9 +242,6 @@
         background-position: center;
     }
 
-    .howItWorks-item-description {
-
-    }
 
     .howItWorks-item-title {
         width: 400px;
@@ -256,6 +261,14 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 22px;        
+    }
+
+    .howItWorks-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 562px;
+        background-color: #E1DEE7;
     }
 
   }
