@@ -39,11 +39,12 @@
 }
 
 .description {
-    outline: 2px solid hotpink;
+    outline: 2px solid blue;
 }
 
 .hero-block {
     outline: 2px solid grey;
+    margin: 0;
 }
 
 .invitation {
@@ -51,5 +52,13 @@
 }
 
 .invitation-description {
+    outline: 2px solid green;
+}
+
+.howItWorks-section {
+    outline: 2px solid red;
+}
+
+.howItWorks-image {
     outline: 2px solid green;
 }

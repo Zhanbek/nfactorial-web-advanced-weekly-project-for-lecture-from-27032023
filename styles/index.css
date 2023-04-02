@@ -15,6 +15,10 @@
         margin: 0;
     }
 
+    .main-index {
+        margin: 0;        
+    }
+
     .page {
         display: block;
         /* width: 1440px;
@@ -96,13 +100,19 @@
     }
 
     .description {
-        padding: 100px 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 620px;      
     }
 
     .hero-block {
         display: flex;
         align-items: center; 
         justify-content: space-between;
+        height: 420px;
+        padding-left: 80px;
+        padding-right: 80px;        
     }
 
     .info {
@@ -115,7 +125,8 @@
 
     .hero {
         display: block;
-        height: 458px;        
+        width: 619px;
+        height: 420px;    
     }
 
     .invitation {        
@@ -170,5 +181,19 @@
         border-radius: 100px;
         margin: 0;
         padding: 16px 24px;
+    }
+
+    .howItWorks-section {
+        display: flex;
+        flex-direction: column;
+        height: 562px;
+        padding: 100px 80px;     
+        margin: 0;
+    }
+
+    .howItWorks-image {
+        display: block;
+        width: 351px;
+        height: 84px;
     }
   }
