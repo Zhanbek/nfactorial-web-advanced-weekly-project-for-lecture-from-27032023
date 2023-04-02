@@ -49,3 +49,7 @@
 .invitation {
     outline: 2px solid red;
 }
+
+.invitation-description {
+    outline: 2px solid green;
+}

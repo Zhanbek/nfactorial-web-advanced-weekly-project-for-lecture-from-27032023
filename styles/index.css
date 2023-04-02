@@ -126,6 +126,7 @@
         flex-grow: 0;
 
         margin: 0;
+        margin-bottom: 32px;
         padding: 0;
 
         width: 495px;
@@ -146,13 +147,15 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 22px;
-        color: #000000;            
+        color: #000000;      
+        margin: 0;
+        margin-bottom: 48px;      
     }
 
     .howItWorks-link {        
         display: flex;
         align-items: center;
-        text-align: center;
+        justify-content: center;
 
         width: 144px;
         height: 50px;     
@@ -165,5 +168,7 @@
         color: #FFFFFF;        
         background: #712FFF;
         border-radius: 100px;
+        margin: 0;
+        padding: 16px 24px;
     }
   }
