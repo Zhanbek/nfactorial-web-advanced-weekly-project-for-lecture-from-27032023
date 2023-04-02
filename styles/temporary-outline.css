@@ -59,9 +59,10 @@
     outline: 2px solid red;
 }
 
-.howItWorks-image {
+.howItWorks-title {
     outline: 2px solid green;
 }
+
 
 .howItWorks-list {
     outline: 2px solid hotpink;
@@ -69,4 +70,12 @@
 
 .howItWorks-item {
     outline: 2px solid gray;
+}
+
+.find-job {
+    outline: 2px solid blue;
+}
+
+.find-job-form {
+    outline: 2px solid brown;
 }

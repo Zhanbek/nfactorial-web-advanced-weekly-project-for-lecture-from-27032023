@@ -17,8 +17,6 @@
 
     .page {
         display: block;
-        /* width: 1440px;
-        height: 2386px; */
     }
 
     /* 
@@ -210,8 +208,31 @@
 
     .howItWorks-title {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 351px;
         height: 84px;
+    }
+    
+    .howItWorks-title-description {
+        width: 169px;
+        height: 16px;        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .howItWorks-title-question {
+        width: 351px;
+        height: 56px;        
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 56px;
     }
 
     .howItWorks-image {
@@ -263,12 +284,18 @@
         line-height: 22px;        
     }
 
-    .howItWorks-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 562px;
-        background-color: #E1DEE7;
+
+    .find-job {                
+        height: 422px;
+        padding: 100px 80px 100px 80px;        
     }
 
+    .find-job-form {
+        display: flex;
+        flex-direction: column;        
+        justify-content: space-between;        
+        width: 757px;
+        height: 222px;
+    }
+    
   }
