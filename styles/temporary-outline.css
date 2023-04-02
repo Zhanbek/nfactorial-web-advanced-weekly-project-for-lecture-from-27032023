@@ -62,3 +62,11 @@
 .howItWorks-image {
     outline: 2px solid green;
 }
+
+.howItWorks-list {
+    outline: 2px solid hotpink;
+}
+
+.howItWorks-item {
+    outline: 2px solid gray;
+}
