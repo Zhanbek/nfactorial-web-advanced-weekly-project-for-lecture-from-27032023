@@ -191,19 +191,26 @@
 
     .howItWorks-section {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: column;        
+        justify-content: center; 
+        box-sizing: border-box;
         height: 562px;
         background-color: #E1DEE7;
+        padding: 103px 80px;
     }
 
     .howItWorks-info {
         display: flex;
         flex-direction: column;        
-        justify-content: space-between;
-        height: 362px;
-        padding-left: 80px;
-        padding-right: 80px;   
+        justify-content: space-between;    
+        
+        height: 356px;
+       
+    }
+    
+    .howItWorks-title-container {
+        display: flex;
+        justify-content: center;
     }
 
     .howItWorks-title {

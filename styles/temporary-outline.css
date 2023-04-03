@@ -59,10 +59,13 @@
     outline: 2px solid red;
 }
 
+.howItWorks-info {
+    outline: 2px solid black;
+}
+
 .howItWorks-title {
     outline: 2px solid green;
 }
-
 
 .howItWorks-list {
     outline: 2px solid hotpink;
