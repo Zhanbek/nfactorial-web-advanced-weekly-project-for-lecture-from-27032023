@@ -103,3 +103,15 @@
     outline: 2px dashed fuchsia;
 }
 
+.upload-CV-form {
+    outline: 2px solid green;
+}
+
+.upload-CV-title {
+    outline: 2px solid blue;
+}
+
+.upload-CV-description {
+    outline: 2px solid orange;
+}
+

@@ -399,8 +399,42 @@
         margin: 0 128px 0 0;        
     }
 
-    .send-CV-form {
+    .upload-CV-form {
         margin: 103px 38px 103px 0;
         height: 214px;
+    }
+
+    .upload-CV-title {
+        width: 391px;
+        height: 56px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 56px;
+        color: #000000;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    .upload-CV-description {
+        width: 495px;
+        height: 44px;    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;        
+        color: #000000;      
+        margin: 0;
+        margin-bottom: 32px;  
+    }
+
+    .button-upload-CV {
+        width: 114px;
+        height: 50px;
+        background-color: #712FFF;
+        border-radius: 100px; 
+        margin: 0;
     }
   }
