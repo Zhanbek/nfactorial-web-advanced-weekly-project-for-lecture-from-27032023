@@ -197,7 +197,8 @@
         box-sizing: border-box;
         height: 562px;
         background-color: #E1DEE7;
-        padding: 103px 80px;
+        border-radius: 32px;
+        padding: 103px 80px;                
     }
 
     .howItWorks-info {
@@ -292,12 +293,18 @@
     }
 
 
-    .find-job {                
+    .find-job {   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;             
         height: 422px;
-        padding: 100px 80px 100px 80px;        
+        /* padding: 100px 80px 100px 80px;     */
+        margin: 0;    
     }
 
     .find-job-form {
+        margin: 100px 603px 100px 80px;
+        padding: 0;
         width: 757px;
         height: 222px;
     }
@@ -368,5 +375,21 @@
         background: #712FFF;
         border-radius: 100px;
         color: #FFFFFF;
+    }
+
+    .submission {        
+        height: 548px;
+        padding: 41px 118px 40.33px 40px;
+    }
+
+    .submission-container {
+        display: flex;
+
+        height: 466.67px;
+    }
+
+    .upload-CV-image {
+        width: 619px;
+        height: 420px;        
     }
   }

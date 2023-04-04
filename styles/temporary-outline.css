@@ -76,7 +76,7 @@
 }
 
 .find-job {
-    outline: 2px solid blue;
+    outline: 2px solid black;
 }
 
 .find-job-form {
@@ -93,4 +93,16 @@
 
 .find-job-input-fields {
     outline: 2px solid gray; 
+}
+
+.submission {        
+    outline: 2px solid black;
+}
+
+.submission-container {
+    outline: 2px solid fuchsia;
+}
+
+.upload-CV-image-container {
+    outline: 2px solid blue;
 }
