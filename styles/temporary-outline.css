@@ -100,7 +100,7 @@
 }
 
 .submission-container {
-    outline: 2px solid fuchsia;
+    outline: 2px dashed fuchsia;
 }
 
 .upload-CV-image-container {
