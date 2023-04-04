@@ -115,3 +115,11 @@
     outline: 2px solid orange;
 }
 
+.page-footer {
+    outline: 2px solid black;
+}
+
+.page-footer-container {
+    outline: 2px solid blue;
+}
+

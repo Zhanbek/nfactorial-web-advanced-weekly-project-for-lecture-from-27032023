@@ -437,4 +437,31 @@
         border-radius: 100px; 
         margin: 0;
     }
+
+    .page-footer {
+        height: 172px;
+        margin: 0;
+    }
+
+    .page-footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 32px 80px;
+    }
+
+    .footer-navigation {
+        display: flex;
+        justify-content: space-between;
+        height: 38px;
+    }
+
+    .navigation-container {
+
+    }
+
+    .footer-explanations {
+        
+    }
+
   }
