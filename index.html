@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Kanit:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel = "stylesheet" href = "./styles/index.css">
-    <!-- <link rel = "stylesheet" href = "./styles/temporary-outline.css"> -->
+    <link rel = "stylesheet" href = "./styles/temporary-outline.css">
     <title>Weekly project</title>
 </head>
 <body>
@@ -89,9 +93,17 @@ experience</pre>
             </section>
 
             <section class = "find-job">
-                <div class = "find-job-form">
-                    <h2></h2>
-                </div>
+                <form class = "find-job-form">
+                    <h2 class = "find-job-title">Lets Get Started</h2>    
+                    <p class = "find-job-description">
+                        The best tool to start your career journey with. Get connected with the best companies — just share your CV to get started.
+                    </p>
+                    <fieldset class = "find-job-input-fields">
+                        <input type = "text" class = "find-job-key-words" name = "key-words"
+                               placeholder = "Search for job by keywords"/>
+                        <input type="submit" class = "find-job-button" value = "Find Job"/>
+                    </fieldset>                                           
+                </form>
             </section>
 
         </main>

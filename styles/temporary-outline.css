@@ -82,3 +82,15 @@
 .find-job-form {
     outline: 2px solid brown;
 }
+
+.find-job-title {
+    outline: 2px solid green;
+}
+
+.find-job-description {
+    outline: 2px solid fuchsia;
+}
+
+.find-job-input-fields {
+    outline: 2px solid gray; 
+}
