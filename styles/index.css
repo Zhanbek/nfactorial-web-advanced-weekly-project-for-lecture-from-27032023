@@ -65,7 +65,7 @@
         margin: 0;
         padding: 0;
         list-style-type: none;
-        width: 410px;
+        /* width: 410px; */
         height: 38px;
 
     }
@@ -457,11 +457,38 @@
     }
 
     .navigation-container {
-
+        display: flex;
     }
 
     .footer-explanations {
         
     }
 
+    .social-networks-list {
+        margin: 0;
+        margin-left: 16;
+        padding: 0;
+        list-style-type: none;            
+    }
+
+    .twitter {
+        margin: 0;
+        padding: 0;    
+    }
+
+    .instagram {
+        margin: 0;
+        margin-left: 16px;
+        padding: 0;    
+    }
+
+    .social-networks-link {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .twitter {
+
+    }
   }
