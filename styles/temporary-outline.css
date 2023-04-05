@@ -1,5 +1,6 @@
+
 .page {
-    outline: 2px solid #32a1ce;        
+    outline: 20px solid black;        
 }
 
 .page-header {
@@ -116,7 +117,7 @@
 }
 
 .page-footer {
-    outline: 2px solid black;
+    outline: 5px dashed red;
 }
 
 .page-footer-container {
@@ -132,4 +133,10 @@
     outline: 2px solid green;
 }
 
+.credits-container  {
+    outline: 2px solid gray;
+}
 
+.credits {
+    outline: 2px solid pink;
+}
