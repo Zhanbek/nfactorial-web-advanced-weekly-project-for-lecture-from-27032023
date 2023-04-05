@@ -465,6 +465,7 @@
     }
 
     .social-networks-list {
+        display: flex;
         margin: 0;
         margin-left: 16;
         padding: 0;
@@ -488,7 +489,5 @@
 
     }
 
-    .twitter {
 
-    }
   }
