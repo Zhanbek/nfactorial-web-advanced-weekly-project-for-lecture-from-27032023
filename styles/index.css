@@ -10,7 +10,7 @@
     clip: rect(0 0 0 0);
   }
   
-@media (min-width: 1440px){
+/* @media (min-width: 1440px){ */
     
     body {
         margin: 0;
@@ -528,4 +528,4 @@
         line-height: 18px;        
         color: #081E34;        
     }
-  }
+  /* } */
