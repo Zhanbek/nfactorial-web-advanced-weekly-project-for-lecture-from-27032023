@@ -10,7 +10,7 @@
     clip: rect(0 0 0 0);
   }
   
-/* @media (min-width: 1440px){ */
+@media (min-width: 401px){ 
     
     body {
         margin: 0;
@@ -528,4 +528,634 @@
         line-height: 18px;        
         color: #081E34;        
     }
-  /* } */
+  } 
+
+@media (min-width: 300px) and (max-width: 400px)  {     
+    /* 
+    header  
+    */
+
+    .page-header-m {
+        display: flex;       
+        justify-content: space-between;
+        align-items: center;      
+        height: 62px;
+        margin: 0;
+        padding: 12px 24px;
+        box-sizing: border-box;            
+    }
+
+    .page-header-left-links-m {
+        display: grid;
+        grid-template-columns: 22px 86px;
+        column-gap: 10px;              
+        margin: 0;        
+        padding: 0;        
+        height: 22px;
+        width: 118px;
+    }
+    
+    .magnifier-link-m {
+        display: block;
+        width: 18.68px;
+        height: 22px;        
+        background-image: url("/images-m/icons/magnifier.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .jumys-tap-link-m {
+        display: block;  
+        box-sizing: border-box;      
+        width: 86px;
+        height: 22px;                
+        margin: 0;
+        background-image: url("/images-m/icons/JumysTapLogo.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    } 
+
+    .navigation-button-m {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        color: #081E34;
+        background: rgba(8, 30, 52, 0.12);
+        border-radius: 100px;        
+        margin: 0;        
+        padding: 0;        
+        width: 102px;
+        height: 38px;        
+    }
+
+    /* 
+    main  
+    */
+    
+    .main-index-m {
+        margin: 0;    
+        padding: 0;    
+    }
+
+    .description-m {
+        margin: 0;
+        padding: 32px 24px;                
+    }
+    
+    .hero-image-m {
+        display: block;
+        width: 312px;
+        height: 210px;                
+        border-radius: 32px;
+        margin: 0 0 54px 0;
+    }
+
+    .hero-block-info-m {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0px;
+        height: 290px;
+        box-sizing: border-box;
+    }
+
+    .info-m {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0px;                
+        height: 290px;         
+        box-sizing: border-box;   
+    }
+
+    .hero-block-invitation-m {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 48px 0;
+        padding: 0;
+        height: 192px;
+        box-sizing: border-box;
+    }
+
+    .invitation-m {                
+        display: flex;
+        align-items: center;
+        text-align: center;        
+        height: 114px;        
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        color: #000000;
+        margin: 0 0 24px 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .invitation-description-m {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 54px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        margin: 0;
+        padding: 0;     
+        box-sizing: border-box;         
+    }
+
+    .howItWorks-button-m {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;        
+        height: 50px;        
+        background: #712FFF;
+        border-radius: 100px;
+        box-sizing: border-box;        
+    }
+
+    .howItWorks-button-caption-m {
+        display: flex;
+        align-items: center;
+        text-align: center;        
+        width: 96px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    .howItWorks-section-m {
+        display: block;          
+        height: 686px;        
+        background: #E1DEE7;
+        border-radius: 32px;     
+        margin: 0;
+        padding: 54px 24px 54px 24px;   
+        box-sizing: border-box;
+    }
+    
+    .howItWorks-title-m {        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 54px 0;   
+        padding: 0;
+        width: 312px;
+        height: 84px;
+        box-sizing: border-box;         
+    }
+    
+    .howItWorks-title-description-m {
+        width: 169px;
+        height: 16px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #000000;        
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;   
+    }
+
+    .howItWorks-title-question-m {
+        width: 312px;
+        height: 56px;        
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 56px;        
+        margin: 0;
+        padding: auto;
+        text-align: center;
+        color: #000000;
+        box-sizing: border-box;   
+    }
+
+    .howItWorks-image-m {
+        width: 351px;
+        height: 84px;        
+    }
+
+    .howItWorks-list-m {                
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;      
+        width: 312px;                 
+        height: 440px;
+    }
+
+    .howItWorks-item-m {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0px;        
+        width: 312px;
+        height: 120px;
+    }
+
+    .howItWorks-item-m:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .number-m {
+        width: 42px;
+        height: 42px;
+        margin: 0;
+    }
+
+    .number-m:not(:last-child) {
+        width: 42px;
+        height: 42px;
+        margin-bottom: 24px;
+    }
+    
+    .howItWorks-item-description-m {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 312px;
+        height: 54px;  
+    }
+
+    .howItWorks-item-title-m {
+        width: 312px;
+        height: 24px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;  
+        margin: 0 0 12px 0;
+        padding: 0;                 
+    }
+
+    .howItWorks-item-explanation-m {
+        width: 312px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        color: #000000;
+        margin: 0;
+        padding: 0;
+    }
+
+    .find-job-m {           
+        width: 360px;
+        height: 387px;
+        margin: 0;            
+        padding: 54px 24px;
+        box-sizing: border-box;
+    }
+
+    .find-job-form-m {
+        width: 312px;
+        height: 279px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .find-job-title-m {
+        width: 312px;
+        height: 29px;        
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #000000;
+        margin: 0 0 32px 0;
+        padding: auto auto;
+    }
+
+    .find-job-description-m {
+        width: 312px;
+        height: 54px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        color: #000000;
+        text-align: center;
+        margin: 0 0 32px 0;
+        padding: 0;
+    }
+
+    .find-job-input-fields-m {        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 312px;
+        height: 132px;
+    }
+
+    .find-job-key-words-m {
+        box-sizing: border-box;
+        width: 312px;
+        height: 50px;        
+        background: #FFFFFF;
+        border: 1px solid #E1DEE7;
+        border-radius: 12px;
+        margin: 0 0 32px 0;
+        padding: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        /* color: #000000;
+        opacity: 0.2; */
+        text-align: center;        
+    }
+
+    .find-job-button-m {
+        width: 106px;
+        height: 50px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        box-sizing: border-box;
+        background: #712FFF;
+        border-radius: 100px;
+        color: #FFFFFF;
+    }
+
+    .submission-m {     
+        width: 360px;
+        height: 663px;
+        margin: 0;
+        padding: 64px 24px;     
+        box-sizing: border-box;           
+    }
+
+    .upload-CV-image-m {
+        display: block;
+        width: 312px;
+        height: 210px;                
+        background: #FFFFFF;
+        border-radius: 24px;
+        margin: 0 0 128px 0;
+        padding: 0;                  
+    }
+
+    .upload-CV-form-m {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 312px;
+        height: 197px;                
+    }
+
+    .upload-CV-title-m {
+        width: 174px;
+        height: 29px;        
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;        
+        color: #000000;        
+        margin: 0;
+        padding: 0;
+    }
+
+    .upload-CV-description-m {
+        width: 312px;
+        height: 54px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        margin: 0;
+        padding: 0;        
+    }
+
+    .button-upload-CV-m {
+        display: block;
+        padding: 16px 24px 16px 16px;
+        width: 114px;
+        height: 50px;        
+        color: #FFFFFF;
+        background: #712FFF;
+        border-radius: 100px;   
+        box-sizing: border-box;        
+    }
+
+    .page-footer-m {
+        padding: 32px 24px;        
+        width: 360px;
+        height: 460px;
+        background: #FFFFFF;
+        border-radius: 32px 32px 0 0;
+        box-sizing: border-box;
+    }
+
+    .page-footer-container-m {
+        margin: 0;
+        padding: 0;
+        width: 312px;
+        height: 396px;
+    }
+
+    .footer-navigation-m {
+        display: flex;
+        justify-content: space-between;  
+        height: 38px;
+    }
+
+    .navigation-list-m {
+        margin: 0 0 40px 0;
+        padding: 0;    
+        width: 111px;
+        height: 226px;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+    
+    .navigation-item-m {
+        display: block;
+        margin: 0 0 16px 0;
+        padding: 10px 12px;
+        width: 64px;
+        height: 38px;        
+        box-sizing: border-box; 
+    }
+
+    .about-us {
+        width: 85px;
+        height: 38px;
+    }
+
+    .how-it-works {
+        width: 111px;
+        height: 38px;
+    }
+
+    .social-networks-item-m {        
+        display: block;        
+        padding: 0px 12px;
+        width: 48px;
+        height: 24px;   
+        box-sizing: border-box;  
+    }
+
+    .twitter-item-m {
+        margin: 0 0 16px 0;
+    }
+
+    .instagram-item-m {
+        margin: 0;
+    }
+
+    .social-networks-link-m {
+        display: block;
+        width: 24px;
+        height: 24px;
+        box-sizing: border-box;  
+    }
+
+    .twitter-link {
+        background-image: url("../images-m/icons/Twitter.svg");
+        background-repeat: no-repeat;
+    }
+
+    .instagram-link {
+        background-image: url("../images-m/icons/Instagram.svg");
+        background-repeat: no-repeat;
+    }
+
+    .home-link {
+        display: block;
+        width: 40px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        text-align: center;        
+        color: #081E34;    
+        box-sizing: border-box;     
+    }
+
+    .about-us-link {
+        display: block;
+        width: 61px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #081E34;
+        box-sizing: border-box; 
+    }
+
+    .how-it-works-link {
+        width: 87px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        text-align: center;        
+        color: #081E34;
+    }
+
+    .twitter-m {
+        margin: 0;
+        padding: 0;
+        margin-right: 16px;    
+    }
+
+    .instagram-m {
+        margin: 0;        
+        padding: 0;    
+    }
+
+    .social-networks-link-m {
+        margin: 0;
+        padding: 0;
+    }
+
+    .credits-container-m  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 38px;
+    }
+
+    .credits-m {
+        width: 312px;
+        height: 72px;        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;        
+        color: #081E34;        
+        opacity: 0.5;   
+        margin: 0 0 40px 0;
+        padding: 0;     
+    }
+
+    .copyright-m {
+        width: 312px;
+        height: 18px;        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        color: #081E34;            
+        margin: 0;
+        padding: 0;     
+    }
+}       
